@@ -1,0 +1,197 @@
+body {
+    background: linear-gradient(to bottom,#1f1c2c 0%,#928dab 50%,#1f1c2c 100%) fixed;   
+}
+
+h1, h3, h5 {
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(231, 164, 6);
+}
+
+#soundcontrols, p {
+    display: block;
+    margin: 0 auto;
+}
+
+#txtlookfor {
+    
+    margin: 20px;
+}
+
+.johnny {
+    background-image: url(pix/johnny.jpg);
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    display: block; 
+    width: 90%; 
+    margin-right: auto;
+    margin-left: auto;
+    border-left: solid whitesmoke 1px;
+    border-right: solid whitesmoke 1px;  
+  }
+
+#video, #video2 {
+    display: block;
+    width: 80%;
+    max-width: 600px;
+}
+
+#logo {
+    margin-top: 60px;
+}
+
+#title {
+    margin-top: 60px;
+}
+
+#perk {
+    margin-top: 60px;
+}
+
+.navbar.scrolled {
+    background: rgb(2, 151, 39);
+    transition: background 500ms;
+}
+
+#form1 {
+    margin-top: 60px;
+}
+
+.form-group {
+    margin-top: 20px;
+    position: relative;
+    width: 80%;
+}
+
+.form-group.text-center {
+    margin-right: 50%;
+}
+
+.display-4 {
+    color: black;
+}
+
+/* .nav-item dropdown {
+    float: right;
+} */
+
+#feedback {
+    margin-top: 100px;
+}
+
+iframe {
+    display: block;
+    margin: 5em auto;
+}
+
+.container p {
+    color: white;
+}
+
+.jumbotron p {
+    color: black;
+}
+
+/* hobbies */
+.carousil {
+    text-align: center;
+}
+
+#bigpic {
+    height: 755px;
+    border: solid black 2px;
+    margin: 5px;
+}
+
+.thumbnails img {
+    height: 120px;
+    border: solid black 2px;
+}
+
+h2, caption {
+    text-align: center;
+    color: rgb(234, 250, 6);
+    margin-top: 20px;
+    scroll-margin-bottom: 0;
+}
+
+caption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: thistle;  
+} 
+
+.trip {
+    margin: .5em;
+    text-align: center;
+}
+
+
+
+/* end hobbies */
+
+/* .btn {
+    color: white;
+    padding-top: 2em;
+    display: block;
+    margin: 0 auto;
+} */
+
+/* slide show */
+
+#slideshow {
+    height: 575px;
+    text-align: center;
+    margin: 2em;
+}
+
+#slideshow img {
+    height: 100%;
+    border: solid black 3px;
+    border-radius: 1.5em;
+}
+
+/* .fadein {
+    opacity: 1;
+    transition: all ease-out 0.25s;
+}
+
+.fadeout {
+    opacity: 0;
+    transition: all ease-out 0.25s;
+} */
+
+/* #btnStopGo {
+    width: 100px;
+    margin: 1em;
+    padding: .5em;
+    border: solid black 2px;
+    border-radius: 1em;
+    background-color: rgb(0, 255, 42);
+} */
+
+
+
+
+/* large view */
+@media (min-width: 481px){
+
+}
+
+
+/* small view */
+@media (max-width: 480px) {
+
+}
+
+
+
+
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+  <title>About</title>
+
+</head>
+
+<body>
+
+<div class="johnny">
+
+  <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+    <a class="navbar-brand" href="index.html">HOME</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="about.html">About Me</a>
+            <a class="dropdown-item" href="contact.html">Contact</a>
+            <a class="dropdown-item" href="hobbies.html">Hobbies</a>
+          </div>
+        </li>
+      </ul>
+
+
+    </div>
+  </nav>
+
+  <div class="container">
+    <p>Search this site:
+      <input type="text" id="txtlookfor" autofocus>
+      &nbsp;Choose engine:
+      <select id="dropdown">
+        <option value="0">Select</option>
+        <option value="1">Bing</option>
+        <option value="2">Google</option>
+        <option value="3">Yahoo</option>
+      </select>
+      <input type="button" onclick="search()" value="Go">
+    </p>
+    
+    <p id="soundcontrols">Background Music Recorded at MilkBone Studio: &nbsp;
+      <input type="button" id="playpause" value="Play" style="width: 60px" onclick="stopgo(this)">
+      <input type="range" min="0" max="100" onchange="volume(this.value/100)" title="Volume">
+    </p>
+    </div>
+
+
+  <div class="container">
+    <h3 id="title" class="text-center">About Me.</h3>
+    <h4>MilkBone studio over 40years of studio and live-soundreinforcement experience.
+      Doing shows on the road in small venues to large halls, festivals, weddings and private parties. My high energy
+      sound and light system with the latest in technology makes it easy to apply any application of monitoring system
+      available from flying or floor monitoring to IEM's. My dedication to on going projects is my goal number one. I
+      focus on the project on hand. Getting the job done right keeping my schedule up to date at all times is very
+      important and gets tasks done on time.
+      <br>
+      <hr style="background-color: white;">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate exercitationem repellendus sint mollitia pariatur labore quae, aut voluptatibus iste perferendis. Ab voluptates totam aperiam accusamus. Iste minima adipisci dolorum illum eos perferendis culpa cum odit ex molestiae ipsam sunt, praesentium nostrum sapiente! In dicta voluptas pariatur? Atque, neque! Aut suscipit necessitatibus possimus ad asperiores voluptates, voluptatem, sed neque quo ipsum distinctio sint quaerat fugit. Consequuntur asperiores, incidunt optio consequatur maiores iste ea hic voluptatibus mollitia quasi accusantium debitis! Nihil reprehenderit provident minima harum quis inventore. Vitae velit repellat ab aut nesciunt modi debitis sequi saepe neque nemo. Dolorum, corrupti assumenda? Minima cumque, esse error aperiam totam eveniet magnam. Distinctio molestiae ex similique voluptatem debitis consectetur, incidunt natus odit sit tempore, ipsa adipisci sint cupiditate necessitatibus quidem. Ducimus quam aliquid alias officiis distinctio perspiciatis tempore veniam quasi placeat, beatae nisi odit eligendi voluptas animi? Quod eaque illum officia excepturi deleniti consequuntur? Suscipit error ad, corporis temporibus modi sunt quod eligendi culpa praesentium minima, repudiandae amet quia itaque illo aliquid doloremque quae commodi magni dolores! Iste repudiandae harum nisi soluta aperiam, velit corrupti quas delectus temporibus numquam ea nihil pariatur cumque distinctio nostrum, ipsa vel nulla mollitia iusto, beatae id architecto at a? Beatae et rem optio ducimus ipsa hic, ratione quis officiis ex doloremque fugit deserunt dignissimos. Nesciunt ullam quaerat quae nisi deserunt at iusto vero nihil dolore repellendus harum hic, quam fuga, rerum veritatis, consequatur qui! Et unde quis repudiandae repellendus. Molestiae consequuntur quos sequi quis recusandae, labore eos delectus fuga omnis possimus necessitatibus quia quae odit ab a adipisci culpa sunt repellendus sed doloribus doloremque dolorum quo. Sunt sed odio repudiandae autem temporibus nemo, non aperiam earum nam, obcaecati dolore corporis consectetur est repellat totam dolorum! Quo esse nam asperiores atque. Eos rerum repudiandae aliquid deleniti facere numquam optio!
+    </h4>
+
+  </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous">
+    </script>
+
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      })
+    })
+  </script>
+  
+</body>
+
+
+</html>
